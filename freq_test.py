@@ -47,6 +47,7 @@ print(freq_list)
 
 print("\n")
 
+# Set the govornor to userspace so that we can change the cpu frequency from user application
 set_gov_userspace(NUM_CORE)
         
 # Set each core to each supported frequency
